@@ -3,40 +3,27 @@ let str = "LaunchCode";
 
 let arr = str.split("");
 
+//a) Use string methods to remove the first three characters from the string and add them to the end.
+//Hint - define another variable to hold the new string or reassign the new string to str.
 let str1 = (arr.slice(0,3).join())
 let str2 = (arr.slice(3,10).join())
 console.log(str1);
 console.log(str2);
 
 let str3 = str2 + str1;
-let testarray = ["n","c","h","C","o","d","e"]
+let testArray = ["n","c","h","C","o","d","e"]
 
-alert(testarray.join("%")); // 'a%b%c'
-
-
-
-
+alert(testArray.join("%")); // 'a%b%c'
+alert(testArray.join("")); // 'abc'
+let array4 = alert(testArray.join(""));
 
 
-
+console.log(`${str} becomes ${testArray.join("")}`)
 
 
 
-
-
-
-// myFish is ["angel", "clown", "drum", "mandarin", "sturgeon"]
-// removed is [], no elements removed
-
-//a) Use string methods to remove the first three characters from the string and add them to the end.
-//Hint - define another variable to hold the new string or reassign the new string to str.
-
-
-
-
-//console.log(newStr)
 //Use a template literal to print the original and modified string in a descriptive phrase.
-//console.log(`${str} becomes ${newStr}`)
+
 
 
 //b) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
