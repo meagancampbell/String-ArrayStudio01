@@ -18,19 +18,17 @@ alert(testArray.join("")); // 'abc'
 let array4 = alert(testArray.join(""));
 
 
-console.log(`${str} becomes ${testArray.join("")}`)
-
-
-
 //Use a template literal to print the original and modified string in a descriptive phrase.
 
 
+console.log(`${str} becomes ${testArray.join("")}`)
+
 
 //b) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
-//prompt("How many characters would you like to relocate?")
+prompt("How many characters would you like to relocate?")
 
 //c) Add validation to your code to deal with user inputs that are longer than the word. In such cases, default to moving 3 characters. Also, the template literal should note the error.
-///if (prompt > 9){
-  //console.log(error)
+if (prompt > 9){
+  console.log(error)
 
-//}
+}
